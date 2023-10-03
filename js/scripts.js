@@ -12,6 +12,6 @@ textArea.addEventListener('input', e => {
       counterWords += 1
     }
 
-    paragraph.textContent = `A mensagem tem ${counterWords} palavras.` 
+    paragraph.textContent = `A mensagem tem ${counterWords} ${counterWords === 1 ? 'palavra' : 'palavras'}.` 
   })
 })
