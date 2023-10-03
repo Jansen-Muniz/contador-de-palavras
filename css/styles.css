@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #040456;
+}
+
+h1, textarea{
+  margin-bottom: 1rem;
+}
+
+textarea{
+  font-size: 1rem;
+}
+
+h1, p{
+  color: #ccc;
+}
+
+textarea{
+  width: 400px;
+  height: 150px;
+  padding: 0.5rem;
+}
+
+p{
+  font-size: 25px;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 500px;
+}
